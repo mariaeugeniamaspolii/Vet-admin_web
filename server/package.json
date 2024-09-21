@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Improving my fullstack skills",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariaeugeniamaspolii/fullstack-project.git"
+  },
+  "author": "Maria Eugenia Maspoli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariaeugeniamaspolii/fullstack-project/issues"
+  },
+  "homepage": "https://github.com/mariaeugeniamaspolii/fullstack-project#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "mongoose-unique-validator": "^5.0.0",
+    "nodemailer": "^6.9.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

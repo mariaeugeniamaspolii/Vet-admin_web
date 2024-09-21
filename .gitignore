@@ -1,0 +1,21 @@
+# Node modules
+**/node_modules/
+
+# Environment variables
+**/.env
+
+# Build directories
+**/dist/
+**/build/
+
+# IDE specific files
+**/.vscode/
+
+# Logs
+client/logs/
+client/*.log
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/pnpm-debug.log*
+client/lerna-debug.log*
